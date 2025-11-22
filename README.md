@@ -31,7 +31,7 @@ The system follows a graph-based workflow powered by LangGraph, ensuring modular
 5. Debate: Simulates a fierce debate between Bull (Aggressive), Bear (Conservative), and Balanced experts, concluded by a Judge (CIO).
 
 ## Project Structure
-
+```
 FinAgent_Investment_Agent/
 ├── assets/                  # Static assets (images, diagrams)
 ├── condtition/              # Router & Safety Layer
@@ -59,6 +59,7 @@ FinAgent_Investment_Agent/
 ├── .gitignore
 ├── main.py                  # Application Entry Point (Graph Compiler)
 └── README.md                # Project Documentation
+```
 
 ## 1. Installation
 
