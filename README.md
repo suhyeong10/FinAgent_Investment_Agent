@@ -139,7 +139,7 @@ Our agent uses a hybrid approach to fetch real-time stock data:
 - **Korean Stocks**: Uses FinanceDataReader (Naver Finance based).
 - **Global Stocks/Indices**: Uses Yahoo Finance (with auto-ticker mapping).
 
-**Context-Aware Router (```condition/condition.py```)**
+**Context-Aware Router (```condition/condition.py```)** \n
 The router doesn't just look at the last message. It analyzes the entire conversation history to determine if the user is answering a profile question, agreeing to a suggestion, or asking a new question, preventing infinite loops.
 
 **Database Synchronization (```user_chat/node.py```)**
